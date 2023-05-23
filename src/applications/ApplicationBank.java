@@ -35,9 +35,9 @@ public class ApplicationBank implements Bank {
                                     учун "replenish" созун жазыныз!
                                                      Акча которуу  учун
                                    "transfer" созун жазыныз!     """);
-            break;
-        }
-        String word = scanner.nextLine();
+
+
+            String word = scanner.nextLine();
 
 
             switch (word) {
@@ -120,6 +120,7 @@ public class ApplicationBank implements Bank {
 
             }
         }
+    }
 
     @Override
     public String name() {
